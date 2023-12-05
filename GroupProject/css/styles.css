@@ -30,9 +30,7 @@
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 10px;
-}
-.active{
-    color: #EADE8B !important;
+    color: #EADE8B !important
 }
 /* Mastheads */
 #masthead {
@@ -44,22 +42,6 @@
     justify-content: flex-start;
     align-items: center;
 }
-/* #masthead-light {
-    background-image: url(../images/chatt-sil-light-300ppi.png);
-    background-size: cover;
-    background-position: bottom center;
-    height: 800px;
-}
-#masthead-dark{
-    background-image: url(../images/chatt-sil-300ppi.png);
-    background-size: cover;
-    background-position: bottom center;
-    height: 800px;
-} */
-
-
-
-
 /* Content Colors */
 .purple-content{
     background-color: #7D193E;
@@ -67,7 +49,7 @@
 }
 .orange-content{
     background-color: #E76C42;
-    color: #fefefe;
+    color: #000;
 }
 .yellow-content{
     background-color: #FDF1D2;
@@ -88,14 +70,6 @@
     border-color: #E0AA0F  !important;
     color: #002B3B;
 }
-.btn-primary{
-    background-color: #002B3B !important;
-    border-color: #002B3B;
-}
-.btn-primary:hover{
-    border-color: #002B3B !important;
-    color: #fefefe;
-}
 .btn-danger{
     background-color: #E71D2A !important;
     border-color: #E71D2A;
@@ -106,3 +80,269 @@
     color: #002B3B;
 }
 /* Examples for how to change button colors */
+/* Custom styles for carousel controls with rounded drop shadows */
+/* Disney */
+#carouselDisney .carousel-control-prev,
+#carouselDisney .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselDisney .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselDisney .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselDisney .carousel-control-prev-icon,
+#carouselDisney .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Universal */
+#carouselUniversal .carousel-control-prev,
+#carouselUniversal .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselUniversal .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselUniversal .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselUniversal .carousel-control-prev-icon,
+#carouselUniversal .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Osc */
+#carouselOsc .carousel-control-prev,
+#carouselOsc .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselOsc .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselOsc .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselOsc .carousel-control-prev-icon,
+#carouselOsc .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Lep */
+#carouselLep .carousel-control-prev,
+#carouselLep .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselLep .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselLep .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselLep .carousel-control-prev-icon,
+#carouselLep .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Dpcpa */
+#carouselDpcpa .carousel-control-prev,
+#carouselDpcpa .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselDpcpa .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselDpcpa .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselDpcpa .carousel-control-prev-icon,
+#carouselDpcpa .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Oma */
+#carouselOma .carousel-control-prev,
+#carouselOma .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselOma .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselOma .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselOma .carousel-control-prev-icon,
+#carouselOma .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Carousels */
+/* Custom Button */
+.btn-primary {
+    color: #fefefe;
+    background-color: #7D193E;
+    border-color: #701637;
+}
+
+.btn-primary:hover {
+    color: #fefefe;
+    background-color: #641431;
+    border-color: #8A274B;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5)
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    color: #212529;
+    background-color: #7D193E;
+    border-color: #701637;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fefefe;
+    background-color: #97365A;
+    border-color: #57112b;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(164, 72, 106, 0.5)
+}
+
+.btn-outline-primary {
+    color: #7D193E;
+    background-color: transparent;
+    background-image: none;
+    border-color: #7D193E;
+}
+
+.btn-outline-primary:hover {
+    color: #222;
+    background-color: #8A274B;
+    border-color: #7D193E;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    box-shadow: 0 0 0 .2rem rgba(164, 72, 106, 0.5)
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    color: #7D193E;
+    background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show>.btn-outline-primary.dropdown-toggle {
+    color: #212529;
+    background-color: #8A274B;
+    border-color: #7D193E;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(151, 54, 90, 0.5)
+}
+/* Custom Button */
+/* Animated Elements */
+.animated-element {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+.animated-element.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animated-element-no-move {
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.animated-element-no-move.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.animated-element-slow {
+    opacity: 0;
+    transition: opacity 1s ease-in-out 1s, transform 1s ease-in-out 2s;
+}
+
+.animated-element-slow.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* Animated Elements */
